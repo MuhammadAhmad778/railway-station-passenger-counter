@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:
+    linear-gradient(rgba(0,0,0,.45),
+    rgba(0,0,0,.45)),
+    url("station.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+
+    width:90%;
+    max-width:420px;
+
+    background:rgba(255,255,255,.95);
+
+    padding:35px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.35);
+}
+
+h1{
+
+    font-size:34px;
+
+    color:#1f2937;
+}
+
+h3{
+
+    color:#666;
+
+    margin-top:8px;
+
+    margin-bottom:25px;
+
+    font-weight:500;
+}
+
+#count-el{
+
+    font-size:80px;
+
+    color:#111827;
+
+    margin-bottom:25px;
+
+    transition:.2s;
+}
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    margin-top:12px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+#increment-btn{
+
+    background:#2563eb;
+
+    color:white;
+}
+
+#increment-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+}
+
+#save-btn{
+
+    background:#16a34a;
+
+    color:white;
+}
+
+#save-btn:hover{
+
+    background:#15803d;
+
+    transform:translateY(-2px);
+}
+
+#reset-btn{
+
+    background:#dc2626;
+
+    color:white;
+}
+
+#reset-btn:hover{
+
+    background:#b91c1c;
+
+    transform:translateY(-2px);
+}
+
+h4{
+
+    margin-top:30px;
+
+    margin-bottom:10px;
+
+    color:#374151;
+}
+
+#save-el{
+
+    background:#f3f4f6;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    min-height:60px;
+
+    line-height:1.8;
+
+    color:#333;
+}
+
+footer{
+
+    margin-top:25px;
+
+    color:#777;
+
+    font-size:14px;
+}
+
+.animate{
+
+    transform:scale(1.15);
+
+    color:#2563eb;
+}
