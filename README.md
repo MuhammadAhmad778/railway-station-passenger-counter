@@ -8,7 +8,7 @@ This project demonstrates fundamental front-end web development concepts includi
 
 ## 📸 Preview
 
-![Project Preview](station.jpg)
+![Project Preview](preview.png)
 
 ---
 
